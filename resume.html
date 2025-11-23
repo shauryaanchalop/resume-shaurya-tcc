@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Shaurya</title>
+  <style>
+    /* General */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      background: #2084e0;
+      color: white;
+      padding: 2rem;
+    }
+    .profile-pic {
+      width: 120px;
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+    .profile-pic:hover {
+      transform: scale(1.1);
+    }
+
+    /* Sections */
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    /* Skills Grid */
+    #skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    /* Projects Flexbox */
+    #projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    #projects article {
+      flex: 1 1 45%;
+      background: #fff;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      transition: transform 0.3s;
+    }
+    #projects article:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Contact */
+    footer {
+      background: #333;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    footer form {
+      margin-bottom: 1rem;
+    }
+    footer input, footer textarea {
+      width: 80%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+    }
+    footer button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      cursor: pointer;
+    }
+    footer button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="SHAURYA ANCHAL FACE IMAGE SQUARE.jpg" alt="Shaurya Photo" class="profile-pic">
+    <h1>Shaurya</h1>
+    <h2>Web Developer | TCC Technical Head 2026</h2>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h3>About Me</h3>
+    <p>I am a current member of the campus chronicles (TCC) in technical department. I was given a task to make a resume website.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h3>Education</h3>
+    <ul>
+      <li>B.Tech in Computer Science and Engineering - ADGIPS (2025-2029)</li>
+      <li>12th - Khemo Devi Public School (2025)</li>
+      <li>10th - Happy Home Public School (2023)</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML, CSS</li>
+      <li>Python, C</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h3>Projects</h3>
+    <article>
+      <h4>Resume Website</h4>
+      <p>Resume made using HTML and CSS.</p>
+      <a href="#">View Project</a>
+    </article>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h3>Achievements</h3>
+    <ul>
+      <li>2 x hackathon finalist</li>
+      <li>selected in tcc technical department</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <footer id="contact">
+    <h3>Contact</h3>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name"><br>
+      <label>Email:</label>
+      <input type="email" name="email"><br>
+      <label>Message:</label>
+      <textarea name="message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: shauryaanchalop@gmail.com | Phone: +91-9718179925</p>
+  </footer>
+</body>
+</html>
